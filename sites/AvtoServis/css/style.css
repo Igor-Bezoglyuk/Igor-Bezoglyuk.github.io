@@ -1,1 +1,493 @@
 
+body {
+  margin: 0;
+  font-family: Roboto, Arial;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  right: 0%;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+}
+
+.logo {
+  position: relative;
+  font-size: 35px;
+  color: white;
+}
+
+.Menu {
+  position: relative;
+  top: 0;
+  right: 0%;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: 100%;
+  list-style: none;
+  padding: 0px;
+}
+.Menu li {
+  position: relative;
+  top: 0;
+  right: 0%;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 300;
+  display: inline-block;
+  margin: 10px;
+}
+.Menu a {
+  position: relative;
+  text-decoration: none;
+  color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.Menu a:hover {
+  color: red;
+}
+
+.Menu2 {
+  position: fixed;
+  top: 0;
+  right: 0%;
+  width: max-content;
+  height: auto;
+  padding: 20px;
+  background: #b10000;
+  display: none;
+  border-radius: 20px 0px 0px 20px;
+  box-shadow: 0px 0px 25px -2px #ff3f3f;
+
+}
+.Menu2-Spisok{
+position: relative;
+top: 0;
+width: 100%;
+height: 100%;
+list-style: none;
+text-align: center;
+padding: 0px;
+}
+.Menu2Li{
+position: relative;
+top: 0;
+right: 0%;
+width: max-content;
+text-align: center;
+font-size: 25px;
+font-weight: 500;
+color: white;
+display: block;
+margin: 20px;
+}
+.Menu2Silka{
+position: relative;
+text-decoration: none;
+color: white;
+transition: 0.4s;
+}
+.Menu2Silka:hover{
+color: grey;
+}
+.Open{
+position: relative;
+width: max-content;
+font-size: 30px;
+color: red;
+float: right;
+display: none;
+cursor: pointer;
+}
+.Close{
+position: absolute;
+top: 0;
+right: 0%;
+width: max-content;
+font-size: 25px;
+color: white;
+cursor: pointer;
+padding: 10px;
+}
+
+#Kontent {
+  position: relative;
+  top: 0;
+  right: 0%;
+  width: 100%;
+  height: 750px;
+  background: url("../img/auto-background-wallpapers.jpg") no-repeat 50% 50%/cover;
+}
+#Kontent::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #0000008f;
+}
+#Kontent h6 {
+  font-size: 45px;
+  color: white;
+}
+#Kontent p {
+  font-size: 23px;
+  color: white;
+}
+#Kontent input {
+  position: relative;
+  top: 0;
+  right: 0%;
+  width: 230px;
+  height: auto;
+  background: red;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  border-radius: 50px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  padding: 15px;
+}
+#Kontent input:hover {
+  background: #8b000082;
+  color: whitesmoke;
+  border: red 1px solid;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.Konntent-blocks {
+  position: relative;
+  top: 0;
+  right: 0%;
+  width: 100%;
+  height: auto;
+  margin-top: 20em;
+}
+
+#Kontent2 {
+  position: relative;
+  top: 0;
+  right: 0%;
+  width: 100%;
+  height: auto;
+}
+
+.Kontent2-Title {
+  font-size: 35px;
+}
+
+.Kontent2-Blocks {
+  position: relative;
+  top: 0;
+  right: 0%;
+  width: 300px;
+  height: auto;
+  display: inline-block;
+  margin: 20px;
+}
+.Kontent2-Blocks img {
+  position: relative;
+  top: 0;
+  right: 0%;
+  width: 100%;
+  height: 200px;
+}
+.Kontent2-Blocks h6 {
+  font-size: 20px;
+  font-weight: 900;
+  padding-top: 15px;
+}
+.Kontent2-Blocks ul {
+  position: relative;
+  width: 100%;
+  height: auto;
+  list-style: none;
+}
+.Kontent2-Blocks ul li {
+  position: relative;
+  text-align: left;
+  font-size: 16px;
+  font-weight: normal;
+  color: black;
+  display: block;
+  margin-bottom: 10px;
+}
+.Kontent2-Blocks ul li::before {
+  content: "▸";
+  position: absolute;
+  top: -2px;
+  left: 0%;
+  -webkit-transform: translate(-25px);
+          transform: translate(-25px);
+  font-size: 20px;
+  color: red;
+}
+
+#Kontent3 {
+  position: relative;
+  top: 0;
+  right: 0%;
+  width: 100%;
+  height: auto;
+  background: url("../img/avtoservis1.jpg") no-repeat 50% 50%/cover;
+}
+#Kontent3::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #000000b8;
+}
+
+.Kontent3-blocks {
+  position: relative;
+}
+.Kontent3-blocks h6 {
+  font-size: 40px;
+  color: white;
+}
+.Kontent3-blocks p {
+  font-size: 25px;
+  color: white;
+}
+
+#Kontent4 {
+  position: relative;
+  top: 0;
+  right: 0%;
+  width: 100%;
+  height: auto;
+}
+
+.Kontent-4blocks {
+  position: relative;
+  height: auto;
+}
+.Kontent-4blocks h6 {
+  font-size: 35px;
+  font-weight: 900;
+}
+.Kontent-4blocks ul {
+  position: relative;
+  width: 100%;
+  height: auto;
+  list-style: none;
+}
+.Kontent-4blocks ul li {
+  position: relative;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: left;
+  display: block;
+  margin-bottom: 55px;
+}
+.Kontent-4blocks img {
+  position: relative;
+  width:100%;
+  height: auto;
+}
+
+.Kontent4-Li::before {
+  content: "%";
+  position: absolute;
+  top: -12px;
+  left: 0%;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 400;
+  -webkit-transform: translate(-65px);
+          transform: translate(-65px);
+  color: red;
+}
+
+.Kontent4-Li2::before {
+  content: "⚒";
+  position: absolute;
+  top: -12px;
+  left: 0%;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 400;
+  -webkit-transform: translate(-65px);
+          transform: translate(-65px);
+  color: red;
+}
+
+.Kontent4-Li3::before {
+  content: "◷";
+  position: absolute;
+  top: -12px;
+  left: 0%;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 400;
+  -webkit-transform: translate(-65px);
+          transform: translate(-65px);
+  color: red;
+}
+
+#Kontent5 {
+  position: relative;
+  top: 0;
+  right: 0%;
+  width: 100%;
+  height: auto;
+  background: url("../img/kompyuternaya-diagnostika-avto.jpg") no-repeat 50% 50%/cover;
+}
+#Kontent5::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #000000b8;
+}
+
+.Kontant5-blocks {
+  position: relative;
+  height: auto;
+}
+.Kontant5-blocks h6 {
+  font-size: 35px;
+  color: white;
+}
+.Kontant5-blocks form {
+  position: relative;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width:100%;
+  height: auto;
+  border: solid 1px red;
+  background: none;
+  padding: 45px 55px;
+}
+.Kontant5-blocks form h6 {
+  font-size: 50px;
+  color: white;
+}
+.Kontant5-blocks form p {
+  font-size: 20px;
+  color: white;
+}
+
+.Kontent5-forma-input {
+  position: relative;
+  top: 0;
+  right: 0%;
+  width: 100%;
+  height: auto;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 900;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.Kontent5-forma-Knopka {
+  position: relative;
+  top: 0;
+  right: 0%;
+  width: 200px;
+  height: auto;
+  background: red;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  border-radius: 50px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  padding: 15px;
+}
+.Kontent5-forma-Knopka:hover {
+  background: #8b000082;
+  color: whitesmoke;
+  border: red 1px solid;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#Kontent6 {
+  position: relative;
+  top: 0;
+  right: 0%;
+  width: 100%;
+  height: 500px;
+}
+
+iframe {
+  position: relative;
+  top: 0;
+  right: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+.Kontent6-block {
+  position: absolute;
+  top: 30%;
+  right: 0%;
+  width: 33%;
+  height: auto;
+  background: #000000e0;
+  -webkit-box-shadow: 0px 0px 21px 0px black;
+          box-shadow: 0px 0px 21px 0px black;
+  border-radius: 20px;
+  padding: 45px 25px;
+  margin: 10px;
+}
+.Kontent6-block h6 {
+  font-size: 30px;
+  color: red;
+}
+.Kontent6-block p {
+  font-size: 19px;
+  color: white;
+}
+
+.Open {
+  position: relative;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: auto;
+  font-size: 30px;
+  color: red;
+  float: right;
+  display: none;
+}
+
+footer {
+  position: relative;
+  top: 0;
+  right: 0%;
+  width: 100%;
+  height: auto;
+  background: #0c0c0c;
+}
+footer h6 {
+  font-size: 16px;
+  color: white;
+}
+
+@media only screen and (max-width: 980px){
+    .Menu{display: none;}
+    .Open{display: block;}
+    
+    .Kontent6-block{width:300px;}
+    .Kontent-4blocks{width: 84%;}
+    .Kontent3-blocks{text-align: center;}
+    .Kontent5-Block{text-align: center;}
+
+}
+@media only screen and (max-width: 490px){
+    body{position: absolute;}
+
+
+}
