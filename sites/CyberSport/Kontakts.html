@@ -1,0 +1,44 @@
+
+	<?php require 'header.php';?>
+
+		<section id="Kontakts">
+			<div class="container pt-5 pb-5 text-center">
+			<div class="Kontakts-Block row">
+				<h1 class="Kontakts-Block-Title">СВЯЗЬ С НАМИ</h1>
+			</div>
+			</div>
+		</section>
+
+		<section id="Kontakts2">
+			<div class="container pt-5 pb-5">
+			<div class="Kontakts2-Block row justify-content-center">
+				
+				<div class="Kontakts2-Blocks col-xxl-3 col-xl-4 col-lg-4 col-sm-11 text-xxl-start text-xl-start text-lg-start text-sm-center">
+					<p class="Kontakts2BlocksStroka">CONTACT WITH US</p>
+					<h6 class="Kontakts2BlocksText">WE’RE HERE TO HELP YOU</h6>
+
+					<p class="Kontakts2BlocksStroka2">There are many variations of passages of lorem ipsum available, but the majority have suffered alteration in some form injected humour, or simply free textinh randomised words which don't look even slightly believable.</p>
+
+					<div class="Kontakts2BlockSilks">
+						<a class="Kontakts2Silka" href=""><img src="img/" alt=""></a>
+						<a class="Kontakts2Silka" href=""><img src="img/" alt=""></a>
+						<a class="Kontakts2Silka" href=""><img src="img/" alt=""></a>
+						<a class="Kontakts2Silka" href=""><img src="img/" alt=""></a>
+					</div>
+				</div>
+
+				<form class="Kontakts2Forma col-xxl-5 col-xl-6 col-lg-6 col-sm-11 " name="Forma" method="POST" action="ph/Mail.php">
+					<input  class="formatext" type="text" name="name" placeholder="Ваше имя">
+					<input  class="formatext"type="email" name="email" placeholder="Ваша почта">
+					<textarea class="formatextarea" name="message" placeholder="Ваше сообщение"></textarea>
+					<input class="formaknopka btn float-start" type="button" name="Knopka" value="Отправить">
+				</form>
+			</div>
+			</div>
+		</section>
+
+<?php require 'footer.php';?>
+
+<?php require '../KnopkaBack/index.php';?>
+</body>
+</html>
