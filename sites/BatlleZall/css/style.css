@@ -1,0 +1,727 @@
+body {
+  margin: 0px;
+  font-family: Roboto, Arial;
+}
+
+header {
+  position: relative;
+  top: 0;
+  right: 0%;
+  width: 100%;
+  height: auto;
+  background: #0c0c0c;
+}
+header img {
+  position: relative;
+  width: 100%;
+  padding: 10px;
+}
+header ul {
+  position: relative;
+  top: 0;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: 100%;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+header ul li {
+  position: relative;
+  top: 0;
+  right: 0%;
+  font-size: 20px;
+  font-weight: 300;
+  display: inline-block;
+  margin: 25px;
+}
+header ul li a {
+  position: relative;
+  text-decoration: none;
+  color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+header ul li a:hover {
+  color: red;
+}
+
+#Open {
+  position: relative;
+  font-size: 45px;
+  font-weight: 300;
+  color: #eb2627;
+  cursor: pointer;
+  display: none;
+  float: right;
+}
+
+.MenuPhone {
+  position: absolute;
+  top: 90%;
+  width: 100%;
+  left: 0%;
+  height: auto;
+  padding: 20px;
+  background: #0c0c0c;
+  display: none;
+  z-index: 2;
+}
+.MenuPhone ul {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 0px;
+  list-style: none;
+}
+.MenuPhone ul li {
+  position: relative;
+  top: 0;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  display: block;
+  margin: 10px;
+}
+.MenuPhone ul li a {
+  position: relative;
+  text-decoration: none;
+  color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.MenuPhone ul li a:hover {
+  color: red;
+}
+
+.Close {
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  text-align: center;
+  font-size: 25px;
+  color: #eb2627;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 0px 0px 50px 50px;
+  background: #0c0000;
+}
+
+#Kontent {
+  position: relative;
+  width: 100%;
+  height: 650px;
+  background: url("../img/image_12035.jpg") no-repeat 50% 50%/cover;
+}
+#Kontent h1 {
+  position: relative;
+  font-size: 25px;
+  color: white;
+  letter-spacing: 5px;
+}
+#Kontent h6 {
+  position: relative;
+  font-size: 45px;
+  color: white;
+}
+#Kontent p {
+  position: relative;
+  font-size: 20px;
+  color: white;
+}
+#Kontent .KontentStroka2 {
+  font-size: 16px;
+  color: lightgrey;
+}
+#Kontent::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(179deg, #1a1a1a, #1c1c1c91);
+}
+
+.KontentKnopka {
+  position: relative;
+  top: 0;
+  right: 0%;
+  width: 300px;
+  height: auto;
+  background: #eb2627;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 7px;
+  border-radius: 5px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  color: white;
+}
+.KontentKnopka:hover {
+  color: #ff8c8c;
+  background: darkred;
+  text-shadow: 0px 0px 0px red;
+}
+
+#Kontent2 {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.Konbtent2-blocks {
+  position: relative;
+}
+.Konbtent2-blocks img {
+  position: relative;
+  width: 100%;
+}
+.Konbtent2-blocks h6 {
+  position: relative;
+  font-size: 35px;
+  color: black;
+}
+.Konbtent2-blocks p {
+  position: relative;
+  font-size: 20px;
+}
+
+#Kontent3 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: url("../img/image_12048.jpg") no-repeat 50% 50%/cover;
+}
+#Kontent3::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #0c0c0ce0;
+}
+
+.Kontent3-Title {
+  position: relative;
+  font-size: 35px;
+  color: white;
+}
+
+.Kontent3-Stroka {
+  position: relative;
+  font-size: 20px;
+  color: white;
+}
+
+.Kontent3-block {
+  position: relative;
+  padding: 0px;
+  margin: 20px;
+}
+.Kontent3-block img {
+  position: relative;
+  width: 100%;
+  -webkit-box-shadow: 0px 0px 11px -2px #1c0000;
+          box-shadow: 0px 0px 11px -2px #1c0000;
+}
+
+.Kontent3hover {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background: #000000bf;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  opacity: 0;
+}
+.Kontent3hover h6 {
+  position: relative;
+  font-size: 20px;
+  color: white;
+  padding-top: 62%;
+}
+.Kontent3hover p {
+  position: relative;
+  font-size: 17px;
+  color: white;
+}
+.Kontent3hover:hover {
+  opacity: 1;
+}
+
+#Kontent4 {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.Kontent4-Title {
+  position: relative;
+  font-size: 35px;
+  color: black;
+}
+
+.Kontent4-Stroka {
+  position: relative;
+  font-size: 20px;
+}
+
+.Kontent4-Blocks {
+  position: relative;
+}
+.Kontent4-Blocks img {
+  position: relative;
+  padding: 20px;
+  border: solid 2px black;
+}
+.Kontent4-Blocks h6 {
+  position: relative;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+.Kontent4-Blocks p {
+  position: relative;
+  font-size: 17px;
+}
+
+#Kontent5 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: url("../img/Mission.jpg") no-repeat 50% 50%/cover;
+}
+#Kontent5::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #0c0c0ce0;
+}
+#Kontent5 h6 {
+  position: relative;
+  font-size: 35px;
+  color: white;
+}
+#Kontent5 p {
+  position: relative;
+  font-size: 20px;
+  color: white;
+}
+
+.Kontent5-blocks {
+  position: relative;
+}
+.Kontent5-blocks iframe {
+  position: relative;
+  width: 100%;
+  height: 450px;
+}
+
+#Kontent6 {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.Kontent6-Blocks {
+  position: relative;
+}
+.Kontent6-Blocks img {
+  position: relative;
+  padding: 20px;
+  border: solid 2px black;
+}
+.Kontent6-Blocks h6 {
+  position: relative;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+.Kontent6-Blocks p {
+  position: relative;
+  font-size: 17px;
+}
+
+#Kontent7 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: #101010;
+}
+#Kontent7 h6 {
+  position: relative;
+  font-size: 35px;
+  color: white;
+}
+#Kontent7 p {
+  position: relative;
+  font-size: 20px;
+  color: white;
+}
+
+.Kontent7-Blocks {
+  position: relative;
+  margin: 10px;
+}
+.Kontent7-Blocks img {
+  position: relative;
+  width: 100%;
+}
+
+#Kontent8 {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.Kontent8-Title {
+  position: relative;
+  font-size: 35px;
+}
+
+.Kontent8-Stroka {
+  position: relative;
+  font-size: 20px;
+}
+
+.Kontent8-Blocks {
+  position: relative;
+}
+.Kontent8-Blocks img {
+  position: relative;
+  width: 100%;
+}
+.Kontent8-Blocks h6 {
+  position: relative;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+.Kontent8-Blocks p {
+  position: relative;
+  font-size: 17px;
+}
+
+#Kontent9 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: #101010;
+}
+
+.Kontent9-Title {
+  position: relative;
+  font-size: 35px;
+  color: white;
+}
+
+.Kontent9-Stroka {
+  position: relative;
+  font-size: 20px;
+  color: white;
+}
+
+.Kontent9-Blocks {
+  position: relative;
+}
+.Kontent9-Blocks img {
+  position: relative;
+  width: 100%;
+  padding: 15px 0px;
+}
+.Kontent9-Blocks h6 {
+  position: relative;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+.Kontent9-Blocks p {
+  position: relative;
+  font-size: 17px;
+  color: white;
+}
+
+#Kontent10 {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.Kontent10-Title {
+  position: relative;
+  font-size: 35px;
+}
+
+.Kontent10-Stroka {
+  position: relative;
+  font-size: 20px;
+}
+
+.Kontent10-Blocks {
+  position: relative;
+  padding: 20px;
+  border: solid 1px black;
+}
+.Kontent10-Blocks p {
+  position: relative;
+  font-size: 17px;
+  margin: 0px;
+}
+
+#Kontent11 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: url("../img/image_12034.jpg") no-repeat 50% 50%/cover;
+}
+#Kontent11::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #0c0c0ce0;
+}
+
+.Kontent11-Blocks {
+  position: relative;
+  padding: 25px;
+  background: #ebeaea33;
+}
+.Kontent11-Blocks form {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.Kontent11-Blocks form h6 {
+  position: relative;
+  font-size: 35px;
+  color: white;
+}
+.Kontent11-Blocks form p {
+  position: relative;
+  font-size: 20px;
+  color: white;
+}
+
+.Kontent11-Form-Input {
+  position: relative;
+  width: 20%;
+  padding: 10px;
+  border: none;
+  background: none;
+  border: solid 1px grey;
+  font-size: 20px;
+  font-weight: 300;
+  color: red;
+  display: inline-block;
+  margin: 10px;
+}
+
+.Kontent11-Form-Knopka {
+  position: relative;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 10px;
+  background: #eb2627;
+  font-size: 20px;
+  font-weight: 300;
+  color: white;
+  border-radius: 5px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  margin: 0px 10px;
+}
+.Kontent11-Form-Knopka:hover {
+  background: darkred;
+  color: grey;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#Kontent12 {
+  position: relative;
+  width: 100%;
+  height: 450px;
+}
+
+.iframe-carta {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.iframe-Block {
+  position: absolute;
+  top: 24%;
+  right: 0%;
+  width: 500px;
+  height: auto;
+  background: #ffffff85;
+  -webkit-box-shadow: 0px 0px 38px -14px black;
+          box-shadow: 0px 0px 38px -14px black;
+  padding: 20px;
+}
+
+.iframe-Block-Title {
+  position: relative;
+  font-size: 35px;
+}
+
+p {
+  position: relative;
+  font-size: 20px;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: #101010;
+}
+
+.footer-blocks {
+  position: relative;
+}
+.footer-blocks .footer-blocks-img {
+  position: relative;
+  width: 100%;
+}
+.footer-blocks h6 {
+  position: relative;
+  font-size: 35px;
+  color: white;
+}
+.footer-blocks p {
+  position: relative;
+  font-size: 17px;
+  color: white;
+}
+
+.footer-block-soclink {
+  position: relative;
+  width: 100%;
+  height: 50px;
+}
+.footer-block-soclink img {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+
+#KnopkaTop {
+  position: fixed;
+  top: 80%;
+  right: 0%;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: 67px;
+  padding: 0px 21px;
+  background: #eb2627;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 12px 2px darkred;
+          box-shadow: 0px 0px 12px 2px darkred;
+  text-align: center;
+  font-size: 55px;
+  color: white;
+  margin: 10px;
+  z-index: 9;
+  cursor: pointer;
+}
+
+@media only screen and (min-height: 768px) and (max-height: 768px) {
+  .MenuPhone {
+    visibility: hidden;
+  }
+}
+@media only screen and (max-width: 990px) {
+  body {
+    position: absolute;
+  }
+
+  .Menu {
+    display: none;
+  }
+
+  .Header-blocks-img {
+    width: 100%;
+  }
+
+  #Open {
+    display: block;
+  }
+
+  .Konbtent2-blocks {
+    text-align: center;
+  }
+
+  .Kontent7-Blocks {
+    width: 70%;
+  }
+
+  .Kontent8-Title {
+    font-size: 30px;
+  }
+
+  .Kontent8-Blocks {
+    text-align: center;
+  }
+
+  .Kontent9-Title {
+    font-size: 30px;
+  }
+
+  .Kontent9-Blocks {
+    text-align: center;
+  }
+
+  .Kontent11-Blocks form h6 {
+    font-size: 33px;
+  }
+
+  .footer-block {
+    text-align: center;
+  }
+
+  .Kontent11-Form-Input {
+    width: 95%;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .iframe-Block {
+    display: none;
+  }
+
+  .footer-blocks {
+    margin: 15px;
+  }
+}
+@media only screen and (max-width: 490px) {
+  body {
+    position: absolute;
+  }
+
+  .Kontent7-Blocks {
+    width: 60%;
+  }
+
+  .Kontent8-Title {
+    font-size: 26px;
+  }
+
+  .Kontent9-Title {
+    font-size: 26px;
+  }
+
+  .Kontent10-Title {
+    font-size: 34px;
+  }
+
+  .Kontent11-Blocks form h6 {
+    font-size: 28px;
+  }
+}
