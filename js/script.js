@@ -5,7 +5,7 @@ $(document).on('submit', '.Content7form', function(e) {
 
   $.ajax({
       type: $(this).prop('method'),
-      url: $(this).prop('igor.bezoglyuk@mail.ru'),
+      url: $(this).prop('action'),
       data: $(this).serialize()
   }).done(function() {
       // Do something after it submits
