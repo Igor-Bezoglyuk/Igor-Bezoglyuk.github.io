@@ -4,8 +4,8 @@ $(document).on('submit', '.Content7form', function(e) {
   e.preventDefault(); // Prevents the default page reload after form submission
 
   $.ajax({
-      type: $(this).prop('method'),
-      url: $(this).prop('action'),
+      type: $(this).prop('post'),
+      url: $(this).prop('igor.bezoglyuk@mail.r'),
       data: $(this).serialize()
   }).done(function() {
       // Do something after it submits
