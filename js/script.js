@@ -1,10 +1,10 @@
-// --------------------------AJAX.js----------------------------//
+od// --------------------------AJAX.js----------------------------//
 
 $(document).on('submit', '.Content7form', function(e) {
   e.preventDefault(); // Prevents the default page reload after form submission
 
   $.ajax({
-      type: $(this).prop('post'),
+      type: $(this).prop('method'),
       url: $(this).prop('igor.bezoglyuk@mail.r'),
       data: $(this).serialize()
   }).done(function() {
